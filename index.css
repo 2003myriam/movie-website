@@ -31,6 +31,10 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 
 nav ul li {
   cursor: pointer;
@@ -42,6 +46,7 @@ nav ul li {
   cursor: pointer;
   padding: 5px;
   box-shadow: 1px 1px white;
+  font-family: "Bitcount Grid Double", system-ui;
  }
  nav div button:hover{
   background-color:rgb(230, 187, 123,0.7) ;
@@ -63,7 +68,8 @@ nav ul li {
   left: 50%;              
   transform: translateX(-50%);  
   display: flex;          
-  gap: 20px;              
+  gap: 20px;  
+              
 }
 .button-container button {
   padding: 5px;
@@ -73,7 +79,7 @@ nav ul li {
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 0 10px #ebd6C8, 0 0 20px #ebd6C8, 0 0 30px #ebd6C8;
-     font-family: "Bitcount Grid Double", system-ui;
+  font-family: "Bitcount Grid Double", system-ui;
   transition: 0.3s;
 }
 .button-container button:hover{
@@ -81,7 +87,7 @@ nav ul li {
    
  }
 .button-container button:active{
-  background-color: rgb(110, 75, 24);
-   
+  background-color: rgb(110, 75, 24); 
  }
+ 
   
