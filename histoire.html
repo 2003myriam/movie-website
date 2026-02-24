@@ -10,47 +10,56 @@
 </head>
 
 <body>
+  <nav>
+  <div class="nav-container">
+    <h3>İzle</h3>
+    <ul class="hello">
+      <a href="histoire.html"><li data-translate="episodes">Tarih</li></a>
+      <li data-translate="characters">Karakterler</li>
+    </ul>
+    <div>
+      <button id="btn-tr">TR</button>
+      <button id="btn-en">EN</button>
+    </div>
+  </div>
+</nav>
   <main>
-    <section class="histoire">
-      <h1>SAVAŞIN <br> <span>KIZI</span></h1>
-      <p>Unutulmaz Bir Gerçek Hikaye</p>
-      <button>Filmi İzle</button>
+  <section class="histoire">
+    <h1 data-translate="titre_principal">SAVAŞIN <br> <span data-translate="titre_span">KIZI</span></h1>
+    <p data-translate="subtitle">Unutulmaz Bir Gerçek Hikaye</p>
+    <button data-translate="watch_film">Filmi İzle</button>
 
-      <div class="stat">
-        <div>
-          <h3><i class="fa-solid fa-star"></i> 4.5 / 5</h3>
-          <p>Film Puani</p>
-        </div>
-        <div>
-          <h3>IMDb 8.0</h3>
-          <p>IMDB Puani</p>
-        </div>
-        <div>
-          <h3>2017</h3>
-          <p>Vizyon Tarihi</p>
-        </div>
-        <div id="derniere">
-          <h3>Dram/Tarih</h3>
-          <p>Tür</p>
-        </div>
+    <div class="stat">
+      <div>
+        <h3><i class="fa-solid fa-star"></i> <span data-translate="note">4.5 / 5</span></h3>
+        <p data-translate="note_text">Film Puani</p>
       </div>
-    </section>
-    <!-- ______section 2________ -->
-    <section class="section2">
-      <img src="./images/gallerie.png" alt="">
-      <div class="div2">
-        <h2>Gerçek Bir Hikaye</h2>
-        <p>_____1950 - 1953_____</p>
-        <p>1950 yılında Güney Kore ile Kuzey Kore arasındaki savaş sırasında bir Türk askeri, yetim bir küçük kızı
-          sahiplenir ve ona Ayla adını verir. Aralarında güçlü bir bağ oluşur, ancak görevin sonunda ayrılmak zorunda
-          kalırlar.</p>
-          <button></button>
+      <div>
+        <h3>IMDb <span data-translate="imdb_note">8.0</span></h3>
+        <p data-translate="imdb_text">IMDB Puani</p>
       </div>
-    </section>
-    
-  </main>
+      <div>
+        <h3 data-translate="year">2017</h3>
+        <p data-translate="vision_text">Vizyon Tarihi</p>
+      </div>
+      <div id="derniere">
+        <h3 data-translate="genre">Dram/Tarih</h3>
+        <p data-translate="genre_text">Tür</p>
+      </div>
+    </div>
+  </section>
 
+  <section class="section2">
+    <img src="./images/gallerie.png" alt="">
+    <div class="div2">
+      <h2 data-translate="story_title">Gerçek Bir Hikaye</h2>
+      <p data-translate="story_date">_____1950 - 1953_____</p>
+      <p data-translate="story_desc">1950 yılında Güney Kore ile Kuzey Kore arasındaki savaş sırasında bir Türk askeri, yetim bir küçük kızı sahiplenir ve ona Ayla adını verir. Aralarında güçlü bir bağ oluşur, ancak görevin sonunda ayrılmak zorunda kalırlar.</p>
+    </div>
+  </section>
+</main>
 
+<script src="traduction.js"></script>
 </body>
 
 </html>

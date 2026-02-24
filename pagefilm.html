@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="pagefilm.css">
+</head>
+
+<body>
+ <nav>
+  <div class="nav-container">
+    <h3>İzle</h3>
+    <ul class="hello">
+      <a href="histoire.html"><li data-translate="episodes">Tarih</li></a>
+      <li data-translate="characters">Karakterler</li>
+    </ul>
+    <div>
+      <button id="btn-tr">TR</button>
+      <button id="btn-en">EN</button>
+    </div>
+  </div>
+</nav>
+  <div class="boutton">
+    <button onclick="changeVideo(1)"data-translate="serveur1">
+Sunucu 1</button>
+    <button onclick="changeVideo(2)"data-translate="serveur2">
+Sunucu 2</button>
+  </div>
+  <div class="video-container">
+    <iframe id="player" src="https://geo.dailymotion.com/player.html?video=x9ncrqi" allowfullscreen>
+    </iframe>
+  </div>
+  <script src="pagefilm.js"></script>
+  <script src="traduction.js"></script>
+
+</body>
+
+</html>
