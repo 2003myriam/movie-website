@@ -23,7 +23,21 @@ const translations = {
     story_desc: "1950 yılında Güney Kore ile Kuzey Kore arasındaki savaş sırasında bir Türk askeri, yetim bir küçük kızı sahiplenir ve ona Ayla adını verir. Aralarında güçlü bir bağ oluşur, ancak görevin sonunda ayrılmak zorunda kalırlar.",
     story_button: "Filmi İzle",
     serveur1:"Sunucu 1",
-    serveur2:"Sunucu 2"
+    serveur2:"Sunucu 2",
+    characters: "Karakterler",
+    story_desc: "Filmdeki unutulmaz karakterleri keşfedin.",
+    suleyman_name: "Süleyman Astsubay",
+    suleyman_actor: "Ismail Hacjoğlu",
+    suleyman_desc: "Türk askeri. Ayla'ya baballk eden kahraman.",
+    ayla_name: "Ayla",
+    ayla_actor: "Kim Seol",
+    ayla_desc: "Yetim Korell kiz çocuğu.",
+    ali_name: "Ali Onbaşı",
+    ali_actor: "Murat Yildirim",
+    ali_desc: "Süleyman'nın yakin dostu ve silah arkadaşi.",
+    nuran_name: "Nuran",
+    nuran_actor: "Damla Sönmez",
+    nuran_desc: "Süleyman'ın nişanlısı Türkiye'de."
 
   },
   en: {
@@ -49,7 +63,21 @@ const translations = {
     story_desc: "In 1950, during the war between South Korea and North Korea, a Turkish soldier adopts a little orphan girl and names her Ayla. They form a strong bond, but at the end of the mission, they must part ways.",
     story_button: "Watch the Film",
     serveur1:"Server 1",
-    serveur2:"Server 2"
+    serveur2:"Server 2",
+     characters: "Characters",
+    story_desc: "Discover the unforgettable characters of the film.",
+    suleyman_name: "Süleyman Sergeant",
+    suleyman_actor: "Ismail Hacjoğlu",
+    suleyman_desc: "Turkish soldier. Hero who cares for Ayla.",
+    ayla_name: "Ayla",
+    ayla_actor: "Kim Seol",
+    ayla_desc: "Orphan Korean girl.",
+    ali_name: "Ali Corporal",
+    ali_actor: "Murat Yildirim",
+    ali_desc: "Süleyman’s close friend and comrade.",
+    nuran_name: "Nuran",
+    nuran_actor: "Damla Sönmez",
+    nuran_desc: "Süleyman’s fiancée in Turkey."
   }
 };
 

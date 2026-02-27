@@ -1,0 +1,90 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/bg\ 2\ histoire.png");  
+  background-attachment:fixed ;
+  background-repeat: no-repeat; 
+  font-family: Georgia, 'Times New Roman', Times, serif;    
+  background-size: cover;            
+}
+.start button{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: 1px 1px white;
+  font-family: "Bitcount Grid Double", system-ui;
+ }
+ .start button:hover{
+  background-color:rgb(159, 30, 22,0.7) ;
+   
+ }
+.start button:active{
+  background-color: #9F1E16;
+   
+ }
+.start{
+  text-align: center;
+  color:#9F1E16;
+}
+.start h1{
+  font-size: 50px;
+  text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+.start p{
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 0px 8px #9F1E16;
+
+}
+.cartes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px;
+    padding: 0px 100px 0px 100px;
+    
+}
+.separer-imgettxt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  
+  background-color: #B0967B;
+  margin-bottom: 30px;
+ }
+ 
+ hr{
+  width: auto;
+  border: solid 2px #9F1E16;
+ }
+ 
+ 
+
+ 
+/* Effet au survol */
+.separer-imgettxt:hover {
+    transform: translateY(-10px) scale(1.05); /* élévation et léger zoom */
+    box-shadow: 0 5px 25px #9F1E16;
+    filter: brightness(1.1); /* plus lumineux */
+}
+
+/* Transition pour les images à l'intérieur */
+.separer-imgettxt .images img {
+    border-radius: 10px;
+    transition: transform 0.1s ease;
+}
+
+/* Zoom léger sur l'image au hover */
+.separer-imgettxt:hover .images img {
+    transform: scale(0.9);
+}
+
+ 
+
+/* Change la couleur du texte légèrement au hover */
+.separer-imgettxt:hover h2,
+.separer-imgettxt:hover h3,
+.separer-imgettxt:hover p {
+    color: #fff;
+}
+        

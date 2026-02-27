@@ -49,11 +49,11 @@ nav ul li {
   font-family: "Bitcount Grid Double", system-ui;
  }
  nav div button:hover{
-  background-color:rgb(230, 187, 123,0.7) ;
+ background-color:rgb(159, 30, 22,0.7) ;
    
  }
  nav div button:active{
-  background-color: rgb(110, 75, 24);
+  background-color: #9F1E16;
    
  }
 /* ________hero section _________ */
