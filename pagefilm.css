@@ -96,3 +96,36 @@ body {
   height: 80vh;
   border: none;
 }
+
+/* _____reponsive____ */
+ 
+ 
+/* Appareils de taille moyenne (tablettes, 768px et plus) */
+	@media (min-width : 768px) and (max-width : 992px) {
+    nav{
+  font-size: 20px;  
+}
+  }
+
+  /* Petits appareils (téléphones à écran plat, 576px et plus) */
+@media (min-width: 576px) and (max-width: 768px) {
+ nav{
+  font-size: 15px;  
+}
+ .boutton button{
+  font-size: 15px;
+}
+}
+
+/* Extra small devices (moins de 576px) */
+@media (max-width: 576px) {
+    nav{
+  font-size: 10px;
+}
+nav div button{
+   font-size: 10px; 
+}
+.boutton button{
+  font-size: 10px;
+}
+}
