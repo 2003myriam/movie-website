@@ -134,6 +134,7 @@ h3 i{
 }
 /* ______section 2_______ */
 .section2{
+
  width: 100%;
   height: 100vh;
   background-image: url("./images/bg\ 2\ histoire.png");  
@@ -171,3 +172,123 @@ h3 i{
   margin-top:10%;
 }
   
+
+/* _______resposive________ */
+/* Grands appareils (ordinateurs de bureau, 992px et plus) */
+	@media (min-width : 992px) and (max-width : 1200px) {  
+   .histoire h1{
+  font-size: 60px;
+  padding: 15% 10% 0% 10%;
+}
+.histoire p{
+  font-size: 25px;
+}
+.stat{
+  margin: 5% 0% 5% 0%;
+ 
+}
+  }
+ 
+/* Appareils de taille moyenne (tablettes, 768px et plus) */
+	@media (min-width : 768px) and (max-width : 992px) {
+      
+.section2 h2{
+   
+  font-size: 30px;
+  
+} 
+.section2 p{
+ font-size: 20px;
+  
+  width: 300px;  
+ 
+}
+.section2 img{
+  width: 600px;
+  height: 200px;
+  margin-top:20%;
+}
+  }
+
+  /* Petits appareils (téléphones à écran plat, 576px et plus) */
+@media (min-width: 576px) and (max-width: 768px) {
+  nav{
+  font-size: 20px;
+  }
+  .histoire h1{
+  font-size: 30px;
+  padding: 15% 10% 0% 10%;
+}
+ 
+  .section2 h2{
+   
+  font-size: 15px;
+  
+} 
+.section2 p{
+ font-size: 15px;
+  
+  width: 200px;  
+ 
+}
+.section2 img{
+  width: 400px;
+  height: 200px;
+  margin-top:20%;
+}
+ 
+ .stat p{
+  font-size: 15px;
+   
+}
+ 
+}
+
+/* Extra small devices (moins de 576px) */
+@media (max-width: 576px) {
+   nav{
+   
+  font-size: 15px;
+  }
+   .histoire h1{
+  font-size: 30px;
+  padding: 15% 10% 0% 10%;
+}
+  
+  
+  .section2 h2{
+   
+  font-size: 15px;
+  
+} 
+.section2 p{
+ font-size: 10px;
+  
+  width: 200px;  
+ 
+}
+.section2 img{
+  width: 200px;
+  height: 100px;
+  margin-top:20%;
+}
+ 
+ .stat p{
+  font-size: 15px;
+   
+}
+ .histoire h1{
+  font-size: 20px;
+ 
+ }
+ .histoire p{
+  font-size: 15px;
+ }
+ .stat p{
+  font-size: 10px;
+   
+}
+.stat h3{
+  font-size: 10px;
+}
+ }
