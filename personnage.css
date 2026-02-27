@@ -87,4 +87,77 @@ body {
 .separer-imgettxt:hover p {
     color: #fff;
 }
-        
+
+
+/* _______resposive________ */
+/* Grands appareils (ordinateurs de bureau, 992px et plus) */
+	@media (min-width : 992px) and (max-width : 1200px) {  
+   .cartes{
+     
+    gap: 50px;
+    padding: 0px 50px 0px 50px;
+   
+    
+}
+  }
+ 
+/* Appareils de taille moyenne (tablettes, 768px et plus) */
+	@media (min-width : 768px) and (max-width : 992px) {
+    .cartes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+} 
+  }
+  /* Petits appareils (téléphones à écran plat, 576px et plus) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .start h1{
+    font-size: 35px;
+  }
+  .start p{
+    font-size: 25px;
+  }
+   .cartes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+     justify-content: center;
+}  
+}
+
+/* Extra small devices (moins de 576px) */
+@media (max-width: 576px) {
+  .start h1{
+    font-size: 20px;
+  }
+  .start p{
+    font-size: 15px;
+  }
+  .cartes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+     padding: 0px 20px 0px 20px;
+}  
+.separer-imgettxt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .separer-imgettxt h2{
+  font-size: 25px;
+ }
+ .separer-imgettxt h3{
+  font-size: 20px;
+ }
+ .separer-imgettxt p{
+  font-size: 15px;
+ }
+  
+.separer-imgettxt:hover {
+    transform: none
+     
+}
+ 
+}
